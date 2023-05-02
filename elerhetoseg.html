@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cserkészet</title>
+    <link rel="stylesheet" href="./elerhetoseg.css">
+    <link rel="icon" type="image/x-icon" href="./listaicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fejlec">
+        <div class="liliom"><img src="./liliom.png" alt="bal" title="címer"></div>
+        <div class="liliom1"><img src="./liliom.png" alt="jobb" title="címer"></div>
+        <h1>A csapat elérhetősége</h1>
+    </div>
+    <ul class="topnav">
+        <li><a href="./index.html">Bemutatkozás</a></li>
+        <li><a href="./korosztalyok.html">Korosztályok</a></li>
+        <li><a class="active" href="./elerhetoseg.html">Elérhetőség</a></li>
+        <li class="right"><a href="./erdekessegek.html">Egyéb érdekességek</a></li>
+      </ul>
+
+      <div class="hatter">
+
+      <p id="bekezdes"><mark>Ha szeretnél cserkésznek jelentkezni, kérlek töltsd ki az alábbi űrlapot:</mark></p>
+
+      <div class="container">
+        <form action="feldolgoz.php" method="post">
+            <h2>Jelentkezési formula</h2>
+            <div>
+                <label for="nev">Név:</label>
+                <input type="text" name="nev" id="nev" required>
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" name="mail" id="mail" required>
+            </div>
+            <div>
+                <input type="checkbox" name="hirlevel" id="hirlevel">
+                <label for="hirlevel">Szeretnék értesülni a hírlevelekről</label>
+            </div>
+            
+            <p>Hozzájárulok reklámlevelek fogadásához: </p>
+            <div>
+                <input type="radio" name="reklam" id="igen" value="igen">
+                <label for="igen">Igen</label>
+            </div>
+            <div>
+                <input type="radio" name="reklam" id="nem" value="nem">
+                <label for="nem">Nem</label>
+            </div>
+            <p>Megjegyzés:</p>
+            <textarea name="megjegyzes" id="megjegyzes" cols="30" rows="10"></textarea>
+            <div>
+                <input type="submit" value="Küldés">
+                <input type="reset" value="Törlés">
+            </div>
+        </form>
+</div>
+
+<p id="bekezdes">Az alábbi e-mail címen bármikor elérhetnek: <a href="mailto:balogh.balint95@gmail.com">balogh.balint95@gmail.com</a><br>
+Vagy a következő telefonszámon bármikor kereshetnek: <a href="tel:+3630123456">+36/70-411-46-05</a></p>
+</div>
+    <div class="lablec">
+        <div class="jamboree"><img src="./jamboree.png" alt="bal" title="logo"></div>
+        <div class="jamboree1"><img src="./jamboree.png" alt="jobb" title="logo"></div>
+        <div class="a">Szerkesztette: Balogh Bálint Csapatszám:486. Csapatnév: Bátorkeszi István Cserkészcsapat</div>
+    </div>
+</body>
+</html>

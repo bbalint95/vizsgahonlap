@@ -1,0 +1,163 @@
+body {
+    background-color:rgb(8, 139, 8); 
+    display: contents;
+    max-width: 100%;
+}
+
+.fejlec {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(8, 139, 8);
+    padding: 0px;
+    text-align: center;
+    font-size: large;
+}
+
+.container {
+    width: auto;
+    background-image: url('MCSSZlogo.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+mark {
+    background-color: rgb(117, 21, 117);
+    color: greenyellow;
+}
+
+caption {
+    font-weight:bolder;
+    color:green;
+    font-size: x-large;
+    margin-bottom: 10px;
+    font-family: 'Castoro Titling', cursive;
+}
+
+table, td, th {
+    border: 1px solid;
+  }
+  
+table {
+    border-color: black;
+    width: 40%;
+    border-collapse: collapse;
+    display:inline-table;
+    margin: 90px;
+    background-image: radial-gradient(yellow, green, purple);
+    font-family: 'Castoro Titling', cursive;
+    font-weight:bolder;
+    font-size: large;
+} 
+
+
+
+h1 {
+    display: inline;
+    color:chartreuse;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.liliom img{
+    float: left;
+    margin-right: 0;
+}
+
+.liliom1 img{
+    float: right;
+    margin-left: 0;
+}
+
+@media screen and (max-width:500px) {
+    .liliom{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .liliom1{
+        display: none;
+    }
+}
+
+
+div.a {
+    text-align:center;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow:greenyellow 2px 2px;
+    font-family: 'Castoro Titling', cursive;
+    padding: 2%;
+}
+
+.lablec {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(8, 139, 8);
+    padding: 0px;
+    text-align: center;
+    font-size: large;
+}
+
+
+.jamboree img{
+    float: left;
+    margin-right: 0;
+}
+
+.jamboree1 img{
+    float: right;
+    margin-left: 0;
+}
+
+@media screen and (max-width:500px) {
+    .jamboree{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .jamboree1{
+        display: none;
+    }
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #04AA6D;}
+  
+  ul.topnav li.right {float: right;}
+   
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+
+
+
+
+
